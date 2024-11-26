@@ -20,6 +20,7 @@ header {
     background-color: #222;
     padding: 20px;
     color: white;
+    flex-wrap: wrap;
 }
 
 header .logo h1 {
@@ -30,6 +31,8 @@ header .logo h1 {
 header nav ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 header nav ul li {
@@ -48,6 +51,7 @@ header nav ul li a {
     text-align: center;
     margin-bottom: 20px;
     width: 100%; /* A largura do banner ocupa toda a largura da tela */
+    margin-bottom: 20px;
 }
 
 .banner img {
@@ -63,30 +67,6 @@ header nav ul li a {
     color: white;
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 0 10px; /* Adiciona um pouco de padding para o texto não ficar grudado nas bordas */
-}
-
-/* Responsividade para dispositivos menores (tablets e celulares) */
-
-/* Para telas menores que 1024px (tablets e celulares horizontais) */
-@media (max-width: 1024px) {
-    .banner-text {
-        font-size: 1.8rem;
-    }
-}
-
-/* Para telas menores que 768px (celulares) */
-@media (max-width: 768px) {
-    .banner-text {
-        font-size: 1.5rem;
-    }
-}
-
-/* Para telas menores que 480px (celulares muito pequenos) */
-@media (max-width: 480px) {
-    .banner-text {
-        font-size: 1.3rem;
-    }
 }
 
 /* Galeria de Animes */
