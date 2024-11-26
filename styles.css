@@ -1,0 +1,109 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Galeria de Animes */
+.anime-gallery {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.anime-gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.anime-item {
+    display: inline-block;
+    width: 220px;
+    margin: 10px;
+}
+
+.anime-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.anime-item img:hover {
+    transform: scale(1.1);
+}
+
+.anime-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
