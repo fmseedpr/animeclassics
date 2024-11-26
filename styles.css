@@ -20,6 +20,7 @@ header {
     background-color: #222;
     padding: 20px;
     color: white;
+    flex-wrap: wrap;
 }
 
 header .logo h1 {
@@ -30,6 +31,8 @@ header .logo h1 {
 header nav ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 header nav ul li {
@@ -46,6 +49,7 @@ header nav ul li a {
 .banner {
     position: relative;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .banner img {
@@ -60,50 +64,4 @@ header nav ul li a {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-/* Galeria de Animes */
-.anime-gallery {
-    padding: 40px 10%;
-    text-align: center;
-}
-
-.anime-gallery h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.anime-item {
-    display: inline-block;
-    width: 220px;
-    margin: 10px;
-}
-
-.anime-item img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-
-.anime-item img:hover {
-    transform: scale(1.1);
-}
-
-.anime-item h3 {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: white;
-}
-
-footer p {
-    font-size: 1rem;
-}
+    text-shadow: 2px 2px
